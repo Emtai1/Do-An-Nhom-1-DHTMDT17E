@@ -1,0 +1,64 @@
+/* Body */
+body {
+  background-color: hsla(181, 0%, 100%, 1);
+  background-image: radial-gradient(
+      at 40% 20%,
+      hsla(213, 100%, 74%, 0) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 80% 0%, hsla(189, 100%, 56%, 0.07) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, hsla(259, 100%, 93%, 0.02) 0px, transparent 50%),
+    radial-gradient(at 80% 50%, hsla(211, 100%, 76%, 0.08) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(236, 100%, 77%, 0.07) 0px, transparent 50%),
+    radial-gradient(at 80% 100%, hsla(253, 100%, 70%, 0.1) 0px, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(165, 100%, 76%, 0.02) 0px, transparent 50%);
+}
+/* Heaer ở đây */
+.nav-link {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #172d4e;
+  font-weight: 700;
+}
+.nav-link:hover {
+  color: #9c9c9c;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+}
+/* Chỉnh cho contact infor  */
+.contactinfor {
+  margin-bottom: 8px;
+}
+.contactinfor p span {
+  font-size: 20px;
+  color: white;
+  background: #26bfde;
+  padding: 6px;
+  border-radius: 20px;
+  margin-right: 8px;
+}
+.contactinfor p span:hover {
+  background: rgb(61, 60, 60);
+  transition-timing-function: ease-in-out;
+}
+
+.contactinfor p {
+  display: inline-flex;
+  margin: 0;
+  align-items: center;
+  color: rgb(31, 30, 30);
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+/* Chỉnh cho map  */
+iframe {
+  filter: grayscale(20%) invert(90%);
+  -webkit-filter: grayscale(20%) invert(90%);
+  -moz-filter: grayscale(20%) invert(90%);
+  border-radius: 8px;
+  margin: 0;
+}
